@@ -1,5 +1,10 @@
 <?php
     $fish = array('tuna', 'salmon', 'brass', 'snapper');
+    
+    sort($fish);
+    //rsort($fish);
+    //asort($fish);
+    
     foreach ($fish as $f){
         print($f . '<br>');
     }
