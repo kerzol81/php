@@ -3,6 +3,7 @@
         print('State wasnt set');
         exit;
     }else if (filter_input(INPUT_GET, 'state', FILTER_SANITIZE_STRING)){
-        print('yeppp');
+        $state = $_GET['state'];
+        print("<p>You live in $state</p>");
     }        
 ?>
